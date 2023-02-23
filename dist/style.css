@@ -1,12 +1,12 @@
-body {
+body, .bgImage {
   margin: 0;
   height: 100%;
   width: 100%;
   overflow: hidden;
+  display: flex;
 }
 
 .bgImage {
-  position: absolute;
   background-image: url(https://ik.imagekit.io/4tv4vqn6y/Logo/-giga-3287295278_reduced.jpg);
   background-size: cover;
   background-position: center;
@@ -14,8 +14,6 @@ body {
   /* Safari 6.0 - 9.0 */
   filter: grayscale(70%);
   z-index: -1;
-  height: 100%;
-  width: 100%;
 }
 
 .blobCont {
